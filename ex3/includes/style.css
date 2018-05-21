@@ -1,0 +1,346 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+header,nav,aside,article,section,main,footer{
+	display:block;
+}
+
+#wrapper{
+	margin:0px auto;
+	width:1000px;
+}
+
+.clear{
+	clear:both;
+}
+
+header,main{width:1000px;}
+
+a{ 
+	text-decoration:none;
+	text-align:center;
+	color:#ffffff;
+	font-size:18px;
+	font-family:Arial,Helvetica, sans-serif; 
+}
+
+ul{list-style-type:none;}
+
+/*header of layout_1*/
+#layout_1 header{
+height:172px; 
+}
+
+/*nav of layout_1*/
+#layout_1 nav{
+	width:727px;
+	height:57px;
+	margin-top:48px;
+	float:right;
+}
+
+/* logo in layout_1 & layout_2*/
+header > a{
+	width:68px;
+	height:67px;
+	background: url(../images/logoo.png) no-repeat center center ;
+	display:block;
+}
+
+/*.logo1*/
+#layout_1 header > a{
+	margin-left:104px;
+	margin-top:11px; 
+ 
+}
+
+aside{
+	width:121px;
+	height:696px;
+	float:left;
+	background-color:#f2dede;
+}
+
+/*section of lay1*/
+#layout_1 section{
+	width:849px;
+	height:268px;
+	float:right;
+	position:relative;
+}
+
+footer{
+	background-color:#d6d6d6;
+	width:1000px;
+}
+
+section{background-color:#ee5f5b;}
+
+/*.footer_lay1*/
+#layout_1 footer{
+	height:121px;
+}
+
+/*ul in layout 1*/
+#layout_1 nav ul{
+	float:right;}
+
+.selected,#layout_2 nav{
+	background-color:#333333;
+}
+
+/*nav ul li*/
+#layout_1 nav li{
+	float:left;
+}
+
+/* nav ul li a*/
+.selected ,.layout{
+	width:242px;
+	height:57px;
+	display:block;  
+	line-height:57px;
+}
+
+.layout,#layout_2 li:nth-child(2){
+	background-color:#b94a48;
+}
+
+/*.box1*/
+#layout_1 section article{
+	position:absolute;
+	top:89px;
+	left:342px;
+	width:126px;
+	height:94px;
+}
+
+#layout_1 main{position:relative;}
+
+#layout_1 main article{
+	position:absolute; 
+	top:492px;
+	height:175px;
+	width:692px;
+	left:218px;
+}
+
+/*layout number 2 */
+
+#layout_2 header{
+	height:193px;
+}
+
+/*.logo2*/
+#layout_2 header a{
+	position:relative;
+	left:465px;
+	top:37px;
+}
+
+#layout_2 nav{
+	width:243px; 
+	height:885px;
+	float:left;
+}
+
+#layout_2 li a{
+	height:58px;
+	line-height:58px;
+	display:block;
+	text-align:left;
+	padding-left:6px;
+}
+
+/*.footer_lay2*/
+#layout_2 footer{
+	position:fixed;
+	height:50px;
+	bottom:0px;
+}
+
+#layout_2 section{
+	height:885px;
+	width:757px;
+	float:right;
+	position:relative;
+}
+
+article{
+	background-color:#000000; 
+	opacity:0.6;
+}
+
+#layout_2 section article{
+	width:212px;
+}
+
+#box1_lay2{
+	height:366px;
+}
+
+#box2_lay2{
+	height:500px;
+}
+
+#box1_lay2,#box2_lay2{
+	margin-left:30px;
+}
+
+#box2_lay2,#box4_lay2{
+	margin-top:19px;
+}
+
+#box3_lay2{
+	height:560px;
+	position:absolute;
+	left:272px;
+	bottom:325px;
+}
+	
+#box4_lay2{
+	height:306px;
+	position:absolute;
+	left:272px;
+	top:560px;
+}
+
+#box5_lay2{
+	height:223px;
+	position:absolute;
+	left:514px;
+	bottom:662px;
+}
+
+/*layout_3*/
+#layout_3 header{
+	height:500px;
+	width:500px;
+background-color:green; /**/
+	float:left;
+}
+
+#wrapper3{
+	margin: 0px auto;
+    max-width: 1000px;
+    /* min-width: 500px; */
+}
+#layout_3 header > a{
+	margin-top:22px;
+	margin-left:21px;
+}
+
+#layout_3 p{
+	font-size:98px;
+	margin-left:206px;
+	margin-top:117px;
+	font-weight: bold;
+	width:86px;
+	height:86px;
+}
+
+#layout_3 nav {
+	width:500px;
+	height:63px;
+	margin-top:145px;
+}
+#layout_3 ul{
+	display:flex;
+}
+
+#layout_3 li a{
+	height:63px;
+	line-height:63px;
+}
+#layout_3 .selected{
+	width:168px;
+}
+
+#layout_3 .layout{
+	width:166px;
+}
+
+#layout_3 section div{
+	  background-color: DodgerBlue;
+}
+
+#layout_3 section{
+    min-width: 250px;
+    background-color: red;
+  
+}
+
+#layout_3 section article{
+	opacity:0.6;
+	background-color:#000000;
+	width:250px;
+	height:250px;
+	float: left;
+}
+#layout_3 .box1{
+	background-color:yellow;
+
+}
+
+#layout_3 .box2{
+	background-color:green;
+}
+
+#layout_3 .box3{
+	background-color:black;
+}
+
+#layout_3 .box4{
+	background-color:pink;
+}
+
+
+/*#layout_3 main{
+	height:500px;
+	
+}
+#layout_3 main article{
+	width:250px;
+	height:250px;
+	diaplay:flex;
+	flex-wrap:wrap; 
+	float:left;
+}*/
+
+#layout_3 .box5{
+	background-color:#000000;
+}
+
+#layout_3 .box6{
+	background-color:blue;
+}
+
+#layout_3 .box7{
+	background-color:red;
+}
+#layout_3 .box8{
+	background-color:pink;
+	opacity;0.2;
+}
+
+#layout_3 .box9{
+	background-color:red;
+	opacity:0.5;
+}
+
+#layout_3 .box10{
+	background-color:red;
+	opacity:0.1;
+}
+#layout_3 .box11{
+	background-color:red;
+	opacity:0.7;
+}
+#layout_3 .box12{
+	background-color:yellow;
+	opacity:0.3;
+}
+
