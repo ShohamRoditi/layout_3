@@ -9,15 +9,15 @@
  
  		// newObj.className ="box";
 		
-	var opacity_element= newObj.style.opacity; // save the original opacity of the elements
- 		
-	newObj.addEventListener("onmouseover", function(){
-    	newObj.style.opacity = Math.random();
-		 });
-
-	newObj.addEventListener("onmouseout", function(){
-    	newObj.style.opacity = opacity_element;
-		 });
+	// var opacity_element= newObj.style.opacity; // save the original opacity of the elements
+//  		
+	// newObj.addEventListener("onmouseover", function(){
+    	// newObj.style.opacity = Math.random();
+		 // });
+// 
+	// newObj.addEventListener("onmouseout", function(){
+    	// newObj.style.opacity = opacity_element;
+		 // });
 	
 })();
 
