@@ -1,12 +1,13 @@
 window.onload = function(){
  	var i;
  	var plus = document.getElementById("plus");
- 	for(i=1;i<4;i++){
+ 	for(i=0;i<4;i++){
  		createBox();
  	}
  	plus.onclick=function(){
 		createBox();	
  	}
+}
  
 
 
@@ -17,10 +18,6 @@ function createBox(){
  	newObj.style.backgroundColor = "#000000";
  	newObj.style.opacity = Math.random();
  	
- 	// newObj.addEventListener("onmouseover", function(){
-    // newObj.style.opacity = 1.0;
-    // newObj.style.background="#FFFFFF";
-	// });
 	newObj.onmouseover = function(){
 		opacity_element=newObj.style.opacity;
 		newObj.style.opacity = 1.0;
@@ -32,10 +29,5 @@ function createBox(){
     	newObj.style.backgroundColor="#000000";
 	}
 	
-	// newObj.addEventListener("onmouseout", function(){
-    // newObj.style.opacity = opacity_element;
-    // newObj.style.backgroundColor="#000000";
- 	// });
-}	
-
 }
+	

@@ -219,14 +219,12 @@ article{
 #layout_3 header{
 	height:500px;
 	width:500px;
-background-color:green; /**/
 	float:left;
 }
 
 #wrapper3{
 	margin: 0px auto;
     max-width: 1000px;
-    /* min-width: 500px; */
 }
 #layout_3 header > a{
 	margin-top:22px;
@@ -270,9 +268,8 @@ background-color:green; /**/
 }
 
 #layout_3 section article{
-	/*opacity:0.6;
-	background-color:#000000;*/
-	background-color:#ffffff;
+	
+	/*background-color:#ffffff;*/
 	width:250px;
 	height:250px;
 	float: left;
