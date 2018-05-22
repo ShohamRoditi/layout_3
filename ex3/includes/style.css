@@ -263,24 +263,22 @@ background-color:green; /**/
 	width:166px;
 }
 
-#layout_3 section div{
-	  background-color: DodgerBlue;
-}
-
 #layout_3 section{
     min-width: 250px;
-    background-color: red;
+    background-color: #9d261d;
   
 }
 
 #layout_3 section article{
-	opacity:0.6;
-	background-color:#000000;
+	/*opacity:0.6;
+	background-color:#000000;*/
+	background-color:#ffffff;
 	width:250px;
 	height:250px;
 	float: left;
 }
-#layout_3 .box1{
+
+/*#layout_3 .box1{
 	background-color:yellow;
 
 }
@@ -295,7 +293,7 @@ background-color:green; /**/
 
 #layout_3 .box4{
 	background-color:pink;
-}
+}*/
 
 
 /*#layout_3 main{
@@ -309,7 +307,7 @@ background-color:green; /**/
 	flex-wrap:wrap; 
 	float:left;
 }*/
-
+/*
 #layout_3 .box5{
 	background-color:#000000;
 }
@@ -342,5 +340,5 @@ background-color:green; /**/
 #layout_3 .box12{
 	background-color:yellow;
 	opacity:0.3;
-}
+}*/
 
