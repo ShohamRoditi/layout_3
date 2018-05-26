@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shoham Roditi_ex4</title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="includes/style.css">
+		<script src="includes/javascript.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
+	<body>
+		
+		<div id="wrapper">
+			<div><h1>SignUp to TRIP</h1></div>
+			<form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get" id="myForm" >
+				<!-- <h1>SignUp to TRIP</h1> -->
+				<div class="form-group">
+					<br>
+					<label >Your full name : <input required name="fullName" placeholder="your full name" class="form-control"></label><br><br>
+					<!-- <input type="submit" value="submit"><br><br> -->
+					<label>Your password : <input type="password" pattern="[a-z][0-9]{*}" title="A coupon number must
+					be a lower case letter between a-z followed by a digit between 0 to 9" name="pass"  placeholder="your password" class="form-control"></label><br><br>
+					<label>Your mail : <input type="email" name="mail" placeholder="your email" class="form-control" ></label><br><br>
+					<label>Your website : <input type="url" name="website" placeholder="your website" autocomplete="on" class="form-control"></label><br><br>
+					<label>Your phone : <input type="tel" name="phone" maxlength="12" placeholder="phone" class="form-control" ></label><br><br>
+					<label>coffee<input type="number" name="coffee" min="0" max="10" class="form-control"></label><br><br>
+					<label>The temperature now is :  0 <input type="range" name="temper" value="0" min="0" max="45" ></label> 45<br><br>
+					<label>Your address
+						<textarea name="address" rows="2" cols="40" placeholder="your address" id="address" class="form-control"></textarea>
+						<h4 class="err"></h4>
+					</label><br><br>
+					<!-- <button>validate your address</button><br> -->
+					<h3>HOBBIES : </h3>
+					<label ><input type="checkbox" name="interests[]" value="run" > run</label><br>
+					<label><input type="checkbox" name="interests[]" value="watch movies"> watch movies</label><br>
+					<label><input type="checkbox" name="interests[]" value="traveling"> traveling</label><br><br>
+					<h3>Your gender</h3><br>
+					<label><input type ="radio" name="gender" value ="female" > Female</label><br>
+					<label><input type ="radio" name="gender" value ="Male"> Male</label><br>
+					<label>Your age :
+						<select name="age" class="form-control">
+							<option value="23-25">23-25</option>
+							<option value="25-28">25-28</option>
+							<option value="25-35">25-35</option>
+							<option value="36-45">36-45</option>
+							<option value="46-55">46-55</option>
+							<option value="56-70">56-70</option>
+						</select>
+					</label>
+					<br><br>
+					<input type="submit" value="submit" id="but"><br><br>
+				</div>
+			
+			</form>	
+			<!-- <script src="includes/javascript.js"></script> -->
+
+		</div>
+	</body>
+</html>
